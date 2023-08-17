@@ -1,0 +1,238 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    height: 700px;
+    background-image: url(https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav-link{
+    margin-left: 30px;
+    color: white;
+    font-weight: 500;
+}
+.nav-link:hover{
+    color: white;
+    border: 2px solid gainsboro;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color:rgba(0, 0, 0, 0.3);
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-brand img{
+    margin-left: 10px;
+    margin-right: 90px;
+    border: 2px solid gainsboro;
+    border-radius: 50%;
+}
+.nav-icon{
+    padding-top: 5px;
+    color: white;
+}
+.navbar-toggler{
+    margin-left: 10px;
+}
+.banner-container{
+    position: relative;
+    top: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+}
+.banner-contents h1{
+    font-weight: 700;
+    color:white;
+    background-color: rgba(0, 0,255 , 0.4);
+    width: 50%;
+    position: relative;
+    left: 330px;
+    padding: 10px;
+}
+@media (max-width : 500px){
+    .banner-contents h1{
+        position: relative;
+        left: 110px;
+    }
+}
+.banner-contents button{
+    background-color: rgba(0, 0, 255, 0.8);
+    border: 2px solid gray;
+}
+.features{
+    padding: 4% 10%;
+    background-color: #e8ded2;
+}
+.box1{
+    padding: 10px;
+    border: 2px solid hotpink;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.box1 i{
+    border-radius: 50%;
+    background-color: #bb0aac;
+    color: white;
+    padding: 10px;
+}
+.box1:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+    transition: .2s;
+
+}
+#About-Me{
+    background-color: #e8ded2;
+}
+.hr-style{
+    position: relative;
+    left: 600px;
+    text-align: center;
+    border: 5px solid white;
+    border-color: black;
+    border-bottom: none;
+    width: 100px;
+}
+@media(max-width : 550px){
+    .hr-style{
+        position: relative;
+        left: 180px;
+    }
+}
+.personal{
+    padding: 4% 10%;
+    margin: 20px 0;
+}
+.personal:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+    transition: .2s;
+}
+.icon{
+    background-color: #bb0aac;
+    padding: 15px;
+    color: white;
+    border-radius: 50%;
+}
+
+@media(max-width : 500px){
+    .personal{
+        margin-left: 40px;
+    }
+}
+.personal span{
+    font-weight: 700;
+}
+.hr-style2{
+    position: relative;
+    left: 475px;
+    text-align: center;
+    border: 5px solid white;
+    border-color: black;
+    border-bottom: none;
+    width: 100px;
+}
+@media(max-width : 550px){
+    .hr-style2{
+        position: relative;
+        left: 180px;
+    }
+}
+.Tutorial-part{
+    background-color: aqua;
+    padding: 4% 10%;
+}
+.hr-style3{
+    position: relative;
+    left: 479px;
+    text-align: center;
+    border: 5px solid white;
+    border-color: white;
+    border-bottom: none;
+    width: 100px;
+}
+@media(max-width: 550px){
+    .feature{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width : 550px){
+    .hr-style3{
+        position: relative;
+        left: 135px;
+    }
+}
+.Feedback{
+    background-color : #0d0442;
+    padding: 7% 10%;
+}
+.Feedback-image{
+    height: 300px;
+    width: 300px;
+}
+.carousel-item{
+    text-align: center;
+    color: white;
+    padding: 4% 7%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact{
+    background-color:cadetblue;
+    color: white;
+    padding: 4% 10%;
+}
+.hr-style4{
+    position: relative;
+    left: 475px;
+    text-align: center;
+    border: 5px solid white;
+    border-color: white;
+    border-bottom: none;
+    width: 100px;
+}
+@media(max-width : 550px){
+    .hr-style4{
+        position: relative;
+        left: 134px;
+    }
+}
+.submit-and-reset-button input {
+    border: 2px solid navy;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.submit-and-reset-button input:hover{
+    font-size: large;
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+    transition: .2s;
+}
+.invalid-feedback{
+    font-weight: 700;
+}
+footer{
+    background-color: darkblue;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.social a{
+    position: relative;
+    left: 25px;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.social a:hover{
+    font-size: 30px;
+    transition: .2s;
+}
+.copy {
+    padding-left: 50px;
+
+}
